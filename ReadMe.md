@@ -289,7 +289,7 @@ duplicate([1, 2, 3, 4, 5], 3);
 function duplicate(arr, times) {
   let duplicated = [];
   for (let i = 0; i < times; i++) {
-    duplicated = [...result, ...arr];
+    duplicated = [...duplicated, ...arr];
   }
   return duplicated;
 }
